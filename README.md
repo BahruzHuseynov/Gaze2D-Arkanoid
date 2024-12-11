@@ -31,7 +31,7 @@ Follow the steps below to set up and run the project on your local machine:
 Make sure you have **Python 3.x** installed. You can check this by running:
 
 ```bash
-python --version
+python --version```
 
 git clone https://github.com/yourusername/2D-Gaze-Tracking-Breakout.git
 cd 2D-Gaze-Tracking-Breakout
