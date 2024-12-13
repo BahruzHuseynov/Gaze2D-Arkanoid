@@ -39,24 +39,19 @@ This project implements a **2D Gaze Tracking** system that uses appearance-based
 1. MobileNet Folder
 - Contains a Jupyter Notebook that has been fine-tuned on a public dataset.
 - Combines MediaPipe outputs with the MobileNetV3 architecture.
-   Key functionality:
 - Uses MediaPipe to obtain two eye boundary boxes.
 - Passes these boundary boxes into the MobileNetV3 model to predict the pupil centers for both eyes.
   
 2. MediaPipe Folder
-Contains one script used to:
-Detect eye boundary boxes.
-Identify the pupil and iris.
-Determine whether the eye is open or closed.
-Key functionality:
-Focuses specifically on eye detection and segmentation.
-Operates independently from other modules.
+- Detect eye boundary boxes and dentify the pupil and iris.
+- Determine whether the eye is open or closed.
+  
 3. Main Folder (Main Folder)
-The main folder of the project contains:
-main.py: The primary script that combines the functionalities of both MobileNet and MediaPipe.
-Subfolders:
-Calibration Folder: Contains scripts and resources for system calibration.
-Game Folder: Contains the code and resources for the interactive game integrated with gaze detection.
+= The main folder of the project contains:
+- main.py: The primary script that combines the functionalities of both MobileNet and MediaPipe.
+   Subfolders:
+- Calibration Folder: Contains scripts and resources for system calibration.
+- Game Folder: Contains the code and resources for the interactive game integrated with gaze detection.
 
 
 ## Features
