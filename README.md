@@ -3,7 +3,7 @@
 
 # Technology
 - **Python**: Main programming language. ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-- **OpenCV**: Used for capturing video feed and processing the gaze data. ![OpenCV](https://github.com/tandpfun/skill-icons/blob/main/icons/OpenCV-Dark.svg)
+- **OpenCV**: Used for capturing video feed and processing the gaze data. <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/OpenCV-Dark.svg" alt="OpenCV" width="20" />
 - **MediaPipe**: An open-source framework for building pipelines to perform computer vision inference over arbitrary sensory data such as video or audio.
 - **PyAutoGui**: Graphic User Interface for creating the Breakout game.
 - **NumPy**: For efficient array manipulation and calculations.
