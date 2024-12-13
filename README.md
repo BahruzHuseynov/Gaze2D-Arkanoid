@@ -1,7 +1,5 @@
 # Gaze2D-Arkanoid
-
-# Balanced Diet Tracker Full-Stack Application
-### Advanced Software Technology (ELTE 2024 Spring)
+### Computational Intelligence Course Project (ELTE 2025 - Autumn Semester)
 
 # Technology
 - Frontend: ReactJS
