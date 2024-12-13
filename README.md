@@ -31,8 +31,14 @@ This project implements a **2D Gaze Tracking** system that uses appearance-based
 
 ```pip install -r requirements.txt```
 
-## Project Structure
+3. Run the main.py file inside the folder named "Main_Folder"
 
+4. Look at each position and press 'c' to continue
+
+<img src = "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11042-018-6490-7/MediaObjects/11042_2018_6490_Fig5_HTML.png" alt = "calibration">
+
+5. Then, the game will start. Control the plate with your eyes.
+## Project Structure
 
 1. MobileNet Folder
 - Contains a Jupyter Notebook that has been fine-tuned on a public dataset.
