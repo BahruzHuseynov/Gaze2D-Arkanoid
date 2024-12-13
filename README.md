@@ -48,7 +48,7 @@ This project implements a **2D Gaze Tracking** system that uses appearance-based
 - Detect eye boundary boxes and dentify the pupil and iris.
 - Determine whether the eye is open or closed.
   
-3. Main Folder (Main Folder)
+3. Main Folder
 - main.py: The primary script that combines the functionalities of both MobileNet and MediaPipe.
 - Calibration Folder: Contains scripts and resources for system calibration.
 - Game Folder: Contains the code and resources for the interactive game integrated with gaze detection.
