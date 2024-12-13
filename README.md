@@ -51,22 +51,9 @@ This project implements a **2D Gaze Tracking** system that uses appearance-based
 
 
 ### Acknowledgments
-Thanks to the creators of OpenCV, Dlib, and PyGame for providing the tools that made this project possible.
-Inspired by modern advancements in gaze-based interaction and game control.
+This project leverages the following tools and frameworks:
 
+- MediaPipe by Facebook
+- MobileNetV3: A lightweight deep learning architecture used for fine-tuned model inference.
 
----
-
-### Key Sections:
-1. **Introduction**: Brief description of the project and its purpose.
-2. **Technologies Used**: Lists the tools, libraries, and frameworks used.
-3. **Project Structure**: Describes the directory layout for the project.
-4. **Features**: Highlights the main functionalities of the project.
-5. **Installation**: Step-by-step guide to set up the project.
-6. **How It Works**: Explains the underlying mechanics of gaze tracking and game control.
-7. **Contributing**: Instructions on how others can contribute to the project.
-8. **License**: Provides licensing information.
-9. **Acknowledgments**: Credits to the tools and libraries used.
-10. **Contact**: Optional section for getting in touch with the project creator.
-
-This README file provides a comprehensive yet clear overview of the project and is ready to be added to your repository.
+We thank the developers and maintainers of these tools for their valuable contributions to the open-source community.
