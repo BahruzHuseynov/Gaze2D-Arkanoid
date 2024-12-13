@@ -7,7 +7,7 @@
 - **MediaPipe**: An open-source framework for building pipelines to perform computer vision inference over arbitrary sensory data such as video or audio.
 - **PyAutoGui**: Graphic User Interface for creating the Breakout game.
 - **NumPy**: For efficient array manipulation and calculations.
-- **PyTorch**: If deep learning-based gaze tracking is implemented.
+- **PyTorch**: If deep learning-based gaze tracking is implemented. <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/PyTorch-Dark.svg" alt="OpenCV" width="30" />
 
 ## Prerequisites
 - Creation of the virtual environment is recommended
