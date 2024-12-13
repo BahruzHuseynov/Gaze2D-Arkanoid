@@ -11,6 +11,9 @@
 
 ## Prerequisites
 - Creation of the virtual environment is recommended
+- Make sure you have **Python 3.x** installed. You can check this by running:
+```bash
+python --version```
 
 ## Using this project
 
@@ -47,18 +50,11 @@ This project implements a **2D Gaze Tracking** system that uses appearance-based
 - Determine whether the eye is open or closed.
   
 3. Main Folder (Main Folder)
-= The main folder of the project contains:
 - main.py: The primary script that combines the functionalities of both MobileNet and MediaPipe.
-   Subfolders:
 - Calibration Folder: Contains scripts and resources for system calibration.
 - Game Folder: Contains the code and resources for the interactive game integrated with gaze detection.
 
 
-## Features
-
-- **Real-Time Eye Gaze Tracking**: Tracks the user’s eye position using their webcam.
-- **Breakout Game Control**: The paddle moves based on the user's gaze in the game.
-- **Appearance-Based Gaze Detection**: The system uses computer vision techniques to detect and interpret gaze direction.
 
 ## Installation
 
