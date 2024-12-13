@@ -12,8 +12,7 @@
 ## Prerequisites
 - Creation of the virtual environment is recommended
 - Make sure you have **Python 3.x** installed. You can check this by running:
-```bash
-python --version```
+```bash python --version```
 
 ## Using this project
 
