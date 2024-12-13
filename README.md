@@ -1,57 +1,36 @@
 # Gaze2D-Arkanoid
-### Computational Intelligence Course Project (ELTE 2025 - Autumn Semester)
+## Computational Intelligence Course Project (ELTE 2025 - Autumn Semester)
 
 # Technology
-- **Python**: Main programming language.
+- **Python**: Main programming language. ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 - **OpenCV**: Used for capturing video feed and processing the gaze data.
-- **Dlib**: Facial landmark detection for gaze tracking.
-- **PyGame**: Framework for creating the Breakout game.
+- **MediaPipe**: An open-source framework for building pipelines to perform computer vision inference over arbitrary sensory data such as video or audio.
+- **PyAutoGui**: Graphic User Interface for creating the Breakout game.
 - **NumPy**: For efficient array manipulation and calculations.
-- **TensorFlow/PyTorch (optional)**: If deep learning-based gaze tracking is implemented.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+- **PyTorch**: If deep learning-based gaze tracking is implemented.
 
 ## Prerequisites
-
-- 
+- Creation of the virtual environment is recommended
 
 ## Using this project
 
-
-1. Clone the project, change into the directory and install the dependencies for server. Create a `.env` file for environment variables in your server and start it.
+1. Clone the project to use and apply changes
 
    ```bash
    git clone <URL>
-   cd balanced_diet_tracker/backend
-   touch .env
-   npm install
-   npm start
+   cd Gaze2D-Arkanoid
    ```
    
    See success message of connection and listening on port 5000
 
-2. Install dependencies for cliens and start it. Open a different terminal parallel:
+2. Install the required libraries by the command below **after cloning the project**
 
-   ```bash
-   cd balanced_diet_tracker/frontend
-   npm install
-   ```
-
-   Run the React application on its own with the command:
-
-   ```bash
-   npm start 
-   ```
-
-    See browser opening up on port 3000
+```pip install -r requirements.txt```
 
 
 # 2D Gaze Tracking for Breakout Game Control
 
 This project implements a **2D Gaze Tracking** system that uses appearance-based methods to control the paddle in the **Breakout** game. The system tracks the user's gaze and moves the paddle based on their eye position, providing a unique and engaging way to interact with the game.
-
-## Technologies Used
-
 
 
 ## Project Structure
